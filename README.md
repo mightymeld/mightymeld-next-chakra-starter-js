@@ -1,13 +1,12 @@
 # Next.js Chakra UI Starter Template
 
-![Open Graph](https://og-image.vercel.app/**Next.js%20Chakra**%20Starter.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg&images=https%3A%2F%2Fraw.githubusercontent.com%2Fchakra-ui%2Fchakra-ui%2Fbf775929a6d73a3aa69e44d5d38542449871475c%2Flogo%2Flogomark-colored.svg)
 
 ## Getting Started
 
-1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "next-chakra-project" with your own project name <br />
+1. Clone this template using [this](https://github.com/mightymeld/js-mightymeld-next-chakra-starter.git), change "mightymeld-next-chakra-project" with your own project name <br />
 
    ```bash
-    npx degit hendraaagil/next-chakra-starter "next-chakra-project"
+    git clone https://github.com/mightymeld/js-mightymeld-next-chakra-starter.git
    ```
 
 2. Install all dependencies <br />
@@ -15,7 +14,7 @@
    Recommended using yarn
 
    ```bash
-    cd next-chakra-project
+    cd js-mightymeld-next-chakra-starter
     yarn
    ```
 
@@ -58,6 +57,7 @@ For more guides, please read:
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Chakra UI Documentation](https://chakra-ui.com/)
+- [Mightymeld Documentation](https://www.mightymeld.com/)
 
 ## License
 
@@ -66,3 +66,4 @@ This project is under [MIT License](LICENSE)
 ## Credits
 
 Created by [Hendra Agil](https://github.com/hendraaagil)
+
