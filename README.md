@@ -3,10 +3,10 @@
 
 ## Getting Started
 
-1. Clone this template using [this](https://github.com/mightymeld/js-mightymeld-next-chakra-starter.git), change "mightymeld-next-chakra-project" with your own project name <br />
+1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "mightymeld-next-chakra-project" with your own project name <br />
 
    ```bash
-    git clone https://github.com/mightymeld/js-mightymeld-next-chakra-starter.git
+    npx degit mightymeld/js-mightymeld-next-chakra-starter "mightymeld-next-chakra-project"
    ```
 
 2. Install all dependencies <br />
@@ -14,20 +14,42 @@
    Recommended using yarn
 
    ```bash
-    cd js-mightymeld-next-chakra-starter
+    cd mightymeld-next-chakra-project
+
     yarn
    ```
 
    or using npm
 
    ```bash
-    cd next-chakra-project
+    cd mightymeld-next-chakra-project
+
     npm install
    ```
 
-3. For customizing options please see [Features](#features) section.
+3. Copy `.env.template` to `.env` and add your MightyMeld instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com) or join the waitlist and you will receive one.
 
-4. Or you can click "Use this template" button above.
+4. Launch the app using:
+
+   ```bash
+    npx mightymeld
+   ``` 
+
+5. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
+
+6. For customizing options please see [Features](#features) section.
+
+7. Or you can click "Use this template" button above.
+
+
+### Running the app without MightyMeld
+
+1. Run the following command to start the app:
+
+```bash
+    yarn dev
+   ``` 
+   The app should appear in a browser tab at localhost:3000.
 
 ## Features
 
