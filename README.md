@@ -27,7 +27,7 @@
     npm install
    ```
 
-3. Copy `.env.template` to `.env` and add your MightyMeld instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com) or join the waitlist and you will receive one.
+3. Copy `.env.template` to `.env` and add your MightyMeld secret and instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com).
 
 4. Launch the app using:
 
