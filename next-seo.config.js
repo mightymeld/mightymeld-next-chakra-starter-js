@@ -1,14 +1,13 @@
-const title = 'Next.js Chakra Starter | Hendra Agil';
-const description =
-  'An opinionated starter project with Next.js and Chakra UI. Created by hendraaagil';
-const url = 'https://nextjs-chakra-hendraaagil.vercel.app';
+const title = "Next.js Chakra Starter | Hendra Agil";
+const description = "An opinionated starter project with Next.js and Chakra UI. Created by hendraaagil";
+const url = "https://nextjs-chakra-hendraaagil.vercel.app";
 
 const SEO = {
   title,
   description,
   canonical: url,
   openGraph: {
-    type: 'website',
+    type: "website",
     url,
     title,
     description,
@@ -22,11 +21,11 @@ const SEO = {
     ],
   },
   twitter: {
-    cardType: 'summary_large_image',
-    handle: '@hendraaagil',
-    site: '@hendraaagil',
+    cardType: "summary_large_image",
+    handle: "@hendraaagil",
+    site: "@hendraaagil",
   },
-  additionalLinkTags: [{ rel: 'icon', href: '/favicon.ico' }],
+  additionalLinkTags: [{ rel: "icon", href: "/favicon.ico" }],
 };
 
 export default SEO;

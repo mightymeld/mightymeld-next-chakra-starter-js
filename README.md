@@ -1,6 +1,5 @@
 # Next.js Chakra UI Starter Template
 
-
 ## Getting Started
 
 1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "mightymeld-next-chakra-project" with your own project name <br />
@@ -33,7 +32,7 @@
 
    ```bash
     npx mightymeld
-   ``` 
+   ```
 
 5. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
 
@@ -41,15 +40,15 @@
 
 7. Or you can click "Use this template" button above.
 
-
 ### Running the app without MightyMeld
 
 1. Run the following command to start the app:
 
 ```bash
     yarn dev
-   ``` 
-   The app should appear in a browser tab at localhost:3000.
+```
+
+The app should appear in a browser tab at localhost:3000.
 
 ## Features
 
@@ -88,4 +87,3 @@ This project is under [MIT License](LICENSE)
 ## Credits
 
 Created by [Hendra Agil](https://github.com/hendraaagil)
-

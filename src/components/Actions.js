@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
-import { Button, ButtonGroup, useColorMode } from '@chakra-ui/react';
-import { FaAngleLeft, FaAngleRight, FaRegMoon, FaRegSun } from 'react-icons/fa';
+import { useRouter } from "next/router";
+import { Button, ButtonGroup, useColorMode } from "@chakra-ui/react";
+import { FaAngleLeft, FaAngleRight, FaRegMoon, FaRegSun } from "react-icons/fa";
 
 const Actions = ({ switchName }) => {
   const router = useRouter();
@@ -8,39 +8,23 @@ const Actions = ({ switchName }) => {
 
   let actions = (
     <>
-      <Button
-        leftIcon={colorMode === 'light' ? <FaRegMoon /> : <FaRegSun />}
-        onClick={toggleColorMode}
-      >
-        {colorMode === 'light' ? 'Dark' : 'Light'} Mode
+      <Button leftIcon={colorMode === "light" ? <FaRegMoon /> : <FaRegSun />} onClick={toggleColorMode}>
+        {colorMode === "light" ? "Dark" : "Light"} Mode
       </Button>
-      <Button
-        rightIcon={<FaAngleRight />}
-        onClick={() =>
-          router.push(switchName === 'Second Page' ? '/second' : '/')
-        }
-      >
+      <Button rightIcon={<FaAngleRight />} onClick={() => router.push(switchName === "Second Page" ? "/second" : "/")}>
         {switchName}
       </Button>
     </>
   );
 
-  if (switchName === 'First Page') {
+  if (switchName === "First Page") {
     actions = (
       <>
-        <Button
-          leftIcon={<FaAngleLeft />}
-          onClick={() =>
-            router.push(switchName === 'Second Page' ? '/second' : '/')
-          }
-        >
+        <Button leftIcon={<FaAngleLeft />} onClick={() => router.push(switchName === "Second Page" ? "/second" : "/")}>
           {switchName}
         </Button>
-        <Button
-          rightIcon={colorMode === 'light' ? <FaRegMoon /> : <FaRegSun />}
-          onClick={toggleColorMode}
-        >
-          {colorMode === 'light' ? 'Dark' : 'Light'} Mode
+        <Button rightIcon={colorMode === "light" ? <FaRegMoon /> : <FaRegSun />} onClick={toggleColorMode}>
+          {colorMode === "light" ? "Dark" : "Light"} Mode
         </Button>
       </>
     );
