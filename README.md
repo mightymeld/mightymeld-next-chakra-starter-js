@@ -22,6 +22,10 @@
 
 2. Run `npm run dev`, the app should then appear in a browser tab on [localhost:3000](localhost:3000)
 
+## Using Another Package Manager
+
+If you would like to use an alternative package manager like yarn or pnpm, make sure to also update the run command in your mightymeld.json file
+
 
 ## Features
 
