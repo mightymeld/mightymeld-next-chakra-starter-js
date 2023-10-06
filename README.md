@@ -25,6 +25,7 @@
 
     npm install
    ```
+   (If you're using yarn, you can change the run command in the mightymeld.json file to `yarn dev`.)
 
 3. Copy `.env.template` to `.env` and add your MightyMeld secret and instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com).
 
@@ -38,7 +39,7 @@
 
 6. For customizing options please see [Features](#features) section.
 
-7. Or you can click "Use this template" button above.
+Or you can click "Use this template" button above.
 
 ### Running the app without MightyMeld
 
