@@ -7,49 +7,21 @@
    ```bash
     npx degit mightymeld/js-mightymeld-next-chakra-starter "mightymeld-next-chakra-project"
    ```
+   Or you can click "Use this template" button above.
 
-2. Install all dependencies <br />
+2. Run `npm install` to install depenendencies.
 
-   Recommended using yarn
+3. Create an `.env` file with your MightyMeld secret and instance ID (available on the [MightyMeld Portal](https://mightymeld.app)).
 
-   ```bash
-    cd mightymeld-next-chakra-project
+4. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
 
-    yarn
-   ```
 
-   or using npm
+## Running the app without MightyMeld
 
-   ```bash
-    cd mightymeld-next-chakra-project
+1. Type `npm install` to install dependencies.
 
-    npm install
-   ```
-   (If you're using yarn, you can change the run command in the mightymeld.json file to `yarn dev`.)
+2. Run `npm run dev`, the app should then appear in a browser tab on [localhost:3000](localhost:3000)
 
-3. Copy `.env.template` to `.env` and add your MightyMeld secret and instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com).
-
-4. Launch the app using:
-
-   ```bash
-    npx mightymeld
-   ```
-
-5. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
-
-6. For customizing options please see [Features](#features) section.
-
-Or you can click "Use this template" button above.
-
-### Running the app without MightyMeld
-
-1. Run the following command to start the app:
-
-```bash
-    yarn dev
-```
-
-The app should appear in a browser tab at localhost:3000.
 
 ## Features
 
