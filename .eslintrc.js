@@ -28,7 +28,6 @@ module.exports = {
     "import/extensions": "off",
     "import/no-unresolved": "off",
     "no-plusplus": "off",
-    "react/function-component-definition": [2, { namedComponents: "arrow-function" }],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
