@@ -2,16 +2,11 @@
 
 ## Getting Started
 
-1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "mightymeld-next-chakra-project" with your own project name <br />
-
-   ```bash
-    npx degit mightymeld/js-mightymeld-next-chakra-starter "mightymeld-next-chakra-project"
-   ```
-   Or you can click "Use this template" button above.
+1. Clone this repository.
 
 2. Run `npm install` to install depenendencies.
 
-3. Download a mightymeld.secrets file from the [MightyMeld Portal](https://mightymeld.app/instances) and place it in your project root 
+3. Run `npx mightymeld secrets` to download a `mightymeld.secrets` file.
 
 4. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
 
