@@ -25,7 +25,6 @@
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
-    "@mightymeld/runtime": "latest",
     "eslint": "^8.16.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "^12.1.6",
@@ -34,6 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
+    "mightymeld": "^0.2.0",
     "prettier": "3.0.3"
   }
 }
